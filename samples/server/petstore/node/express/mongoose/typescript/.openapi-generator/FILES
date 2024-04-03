@@ -1,0 +1,11 @@
+.openapi-generator-ignore
+Apis/PetApi.zz
+Apis/StoreApi.zz
+Apis/UserApi.zz
+Models/ApiResponse.zz
+Models/Category.zz
+Models/Order.zz
+Models/Pet.zz
+Models/Tag.zz
+Models/User.zz
+README.md
