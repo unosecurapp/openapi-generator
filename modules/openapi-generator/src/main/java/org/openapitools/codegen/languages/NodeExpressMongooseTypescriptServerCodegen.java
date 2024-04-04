@@ -35,8 +35,8 @@ public class NodeExpressMongooseTypescriptServerCodegen extends DefaultCodegen i
         super();
 
         outputFolder = "generated-code" + File.separator + "node-express-mongoose-typescript";
-        modelTemplateFiles.put("model.mustache", ".zz");
-        apiTemplateFiles.put("api.mustache", ".zz");
+        modelTemplateFiles.put("model.mustache", ".ts");
+        apiTemplateFiles.put("api.mustache", ".ts");
         embeddedTemplateDir = templateDir = "node-express-mongoose-typescript";
         apiPackage = "Apis";
         modelPackage = "Models";
