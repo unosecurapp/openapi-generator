@@ -1,0 +1,9 @@
+generatorName: node-express-mongoose-typescript
+outputDir: samples/server/petstore/node-express-mongoose-typescript/output/petstore
+inputSpec: modules/openapi-generator/src/test/resources/3_0/petstore.yaml
+templateDir: modules/openapi-generator/src/main/resources/node-express-mongoose-typescript
+generateAliasAsModel: true
+additionalProperties:
+  hideGenerationTimestamp: "true"
+  packageName: petstore
+enablePostProcessFile: true
