@@ -31,12 +31,11 @@ class NodeExpressMongooseTypescriptServerCodegen : DefaultCodegen(), CodegenConf
   }
 
   init {
-    super.init()
-
     outputFolder = "generated-code${File.separator}node-express-mongoose-typescript"
     modelTemplateFiles["model.mustache"] = ".ts"
     apiTemplateFiles["api.mustache"] = ".ts"
-    embeddedTemplateDir = templateDir = "node-express-mongoose-typescript"
+    embeddedTemplateDir = "node-express-mongoose-typescript"
+    templateDir = "node-express-mongoose-typescript"
     apiPackage = "Apis"
     modelPackage = "Models"
     supportingFiles.add(SupportingFile("README.mustache", "", "README.md"))
