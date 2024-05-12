@@ -53,6 +53,12 @@
             <name>Sunn</name>
             <email>sunn.ssb@live.com</email>
         </developer>
+        <developer>
+          <id>cs1193</id>
+          <name>Chandresh Rajkumar Manonmani</name>
+          <email>chandresh.manonmani@unosecur.com</email>
+          <organization>Unosecur</organization>
+        </developer>
     </developers>
     <issueManagement>
         <system>github</system>
@@ -1147,6 +1153,7 @@
                 <module>modules/openapi-generator-maven-plugin</module>
                 <module>modules/openapi-generator-gradle-plugin</module>
                 <module>modules/openapi-generator-online</module>
+                <module>modules/openapi-generator-context-mapper-dsl</module>
             </modules>
         </profile>
     </profiles>
